@@ -34,7 +34,6 @@ function LaunchList() {
         let launchMonth = dateFormat[1]
         const launchDayTimeSplit = dateFormat[2].split('T')
         const launchDay = launchDayTimeSplit[0]
-        const launchTime = launchDayTimeSplit[1]
 
         if ( launchMonth === '01' ){
           launchMonth = 'January'
@@ -61,8 +60,6 @@ function LaunchList() {
         } else if ( launchMonth === '12' ){
           launchMonth = 'December'
         }
-
-        console.log(launchTime)
 
         launchesTruncated.push({
           year: `${launchYear}`,

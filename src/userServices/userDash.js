@@ -23,7 +23,9 @@ function UserDashboard(){
         console.log(err)
       }
     }
-    getData()
+    if (auth){
+      getData()
+    }
   },[auth])
 
   
