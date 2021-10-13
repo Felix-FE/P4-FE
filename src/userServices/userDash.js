@@ -27,7 +27,7 @@ function UserDashboard(){
     getData()
   },[auth])
 
-  console.log(user)
+  
 
   return (
     <section className='dash-wrapper'>
