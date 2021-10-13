@@ -55,8 +55,9 @@ function LaunchInfo(props) {
         console.log(err)
       }
     }
-
-    getData()
+    if (lat && lon){
+      getData()
+    }
     
   },[launchData, lon, lat, weather, weatherIcon])
 
