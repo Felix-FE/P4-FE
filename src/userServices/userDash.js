@@ -1,4 +1,4 @@
-import LaunchList from '../launchInfo/Main.js'
+import LaunchList from '../launchInfo/LaunchList.js'
 import { isAuth } from '../lib/Tokengets.js'
 import React from 'react'
 import { getUserInfo } from '../lib/Requests.js'
