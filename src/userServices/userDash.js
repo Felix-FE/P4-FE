@@ -32,7 +32,7 @@ function UserDashboard(){
     <section className='dash-wrapper'>
       <div className='dash-left'>
         <div className='user-profile-dash'>
-          {!user ? ( 
+          {!user.updatesPosted ? ( 
             <Link to='/login' className='button'>log in</Link>
           ) : (
             <div className='user-info'>
