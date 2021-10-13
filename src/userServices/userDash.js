@@ -18,7 +18,6 @@ function UserDashboard(){
       try {
         const result = await getUserInfo()
         if (!result) console.log('no user')
-        console.log(result.data)
         setUser(result.data)
       } catch (err) {
         console.log(err)
