@@ -51,7 +51,7 @@ function UpdateCard(props) {
       <div className='update-submit'>
         {!isAuth ? (
           <div>
-            <h1>lots a beans</h1>
+            <h1>log in to create an update</h1>
           </div>
         ) : (
           <form className='update-form'>
